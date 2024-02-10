@@ -10,14 +10,13 @@
 DATESTAMP=`date +%Y%m%d-%H%M%S`
 NAO_CHROOT="/opt/nethack/chroot"
 # already compiled versions of dgl and nethack
-NETHACK_GIT="/home/build/NetHack"
+NETHACK_GIT="/home/build/NetHack343"
 # the user & group from dgamelaunch config file.
 USRGRP="games:games"
 # fixed data to copy (leave blank to skip)
-NH_GIT="/home/build/NetHack"
+NH_GIT="/home/build/NetHack343"
 # HACKDIR from include/config.h; aka nethack subdir inside chroot
 # Make a new one each time save compat is broken
-#NHSUBDIR="nh343_new"
 NHSUBDIR="nh343-hdf"
 #for combining xlogfile, etc on minor version bump
 #NH_LOG_SYMLINK_TARGET="/nh343-hdf/var"
